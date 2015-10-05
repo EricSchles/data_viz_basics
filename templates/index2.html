@@ -24,6 +24,22 @@ var chart = c3.generate({
     }
 });
 
+setTimeout(function () {
+    chart.load({
+        columns: [
+            data1
+        ]
+    });
+}, 1000);
+
+setTimeout(function () {
+    chart.load({
+        columns: [
+            data3
+        ]
+    });
+}, 1500);
+
 
 </script>
 
